@@ -1,42 +1,38 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: Yury Zhelezko
+  title: Full stack Engineer
   avatar:
     display: true
-    path: profile.png
+    path: profile.jpg
 
 contact:
-  email: me@example.com
-  phone: +86-111-2222-3333
+  email: yzhelezko@gmail.com
+  phone: +380687704070
   wechat:
   whatsapp:
   telegram:
-  website: example.com
+  website:
   medium:
-  linkedin:
+  linkedin: yuryzhelezko
   googlescholar:
   researchgate:
-  github: github
+  github:
   gitlab:
   bitbucket:
-  twitter: twitter
+  twitter:
   stackoverflow:
   quora:
   goodreads:
 
 profile:
   display: true
-  title: Profile
+  title: Summary
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
-
-    ...
+    Skilled DevOps Engineer with 4+ years of experience, deployment automation of cloud resources in Azure, CI/CD, and DevOps processes. Skilled in understanding complex systems from design, implementation, through to run-state. I’m passionate about what I do and am always ready to tackle the next big challenge.
 
 experiences:
   display: true
-  title: Experiences
+  title: Experience
   items:
     - role: Backend Developer
       time: 2018.03 - 2019.03
@@ -50,34 +46,34 @@ experiences:
 
         ...
 
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+    - role: DevOps Engineer, Automation
+      time: 4 years (October 2014 – January 2018)
+      company: Ciklum@RRD/DFS
+      tag:
+      location: Odesa, Ukraine
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
-
-projects:
-  display: true
-  title: Projects
-  intro: |
-    This is all the projects I'm involved in.
-
-  items:
-    - name: Foo
-      link: https://www.google.com
-      details: |
-        Project Foo's detail, you can write markdown format text.
-
-    - name: Bar
-      link:
-      details: |
-        Project Bar's detail, you can write markdown format text.
+        + Developed deployment scripts for the large cloud-based solution based on
+        SharePoint 2010, SQL 2012 AlwaysOn, Cloud Services using Azure PowerShell and
+        DSC. Azure (Classic)
+        + Developed scripts for performing partial Disaster Recovery and FailBack
+        processes for SQL AlwaysOn Clusters in Azure (Classic)
+        + Support and maintenance more than 20 environments based on SharePoint
+        Farms and SQL AlwaysOn clusters
+        +Participate in developing our own infrastructure/deployment/configuration
+        management framework for Azure.
+        + Developed IaC for the next large cloud-based solution based on SharePoint 2016,
+        SQL 2016, Azure Service Fabric using DSC and the new Azure Resource
+        Management model and our framework.
+        + Participated in weekly IaC deployments.
+        + Developed "One-Click" solution for performing Disaster Recovery and FailBack
+        processes for every component in our solution using our framework.
+        + Participated in 5+ Disaster Recovery testing on Production.
+        + Got experience with containerization and Kubernetes.
+        + Participated in support production and automation deployments of multiple
+        applications in cloud environments.
+        + Developed IaC solutions in Azure for different projects using Terraform and DSC
+        CI/CD for services and infrastructure.
+        + Executing of all QA activities, work in big distributed team.
 
 skills:
   display: true
@@ -101,46 +97,62 @@ education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - university: Computer Academy Step
+      time: Graduated October 2014
+      major: Network technologies and system administration
+      degree: M. Sc.
       details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
+        Graduate work: Automate deployment of SQL AlwaysOn in Azure
 
 certificates:
   display: true
   title: Certificates
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
+    - name: Learn How To Code, Google's Go (golang) 
+      authority: Udemy
+      image: UdemyLogo.svg
+      time: 2018
       link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
-      details: |
+      details:
+
+    - name: 70-533 - Implementing Microsoft Azure Infrastructure Solutions
+      authority: Microsoft
+      image: Microsoft_logo_(2012).svg
+      time: 2015
+      link:
+      details:
+
+    - name: Cisco CCNA 3 LAN Switching and Wireless
+      authority: Cisco
+      image: Cisco_academy_logo.svg
+      time: 2014
+      link:
+      details:
+
+    - name: Cisco CCNA 2 Routers and Routing Basics
+      authority: Cisco
+      image: Cisco_academy_logo.svg
+      time: 2013
+      link:
+      details:
+
+    - name: Cisco CCNA 1 Networking Fundamentals
+      authority: Cisco
+      image: Cisco_academy_logo.svg
+      time: 2012
+      link:
+      details:
+
+    - name: Cisco/HP IT Essential I. PC Hardware and Software
+      authority: Cisco
+      image: Cisco_academy_logo.svg
+      time: 2011
+      link:
+      details:
+
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -156,7 +168,7 @@ publications:
       link:
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
@@ -190,8 +202,21 @@ evaluation:
 
     ...
 
+projects:
+  display: false
+  title: Projects
+  intro: |
+    This is all the projects I'm involved in.
+
+  items:
+    - name: Foo
+      link: https://www.google.com
+      details: |
+        Project Foo's detail, you can write markdown format text.
+
+
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
