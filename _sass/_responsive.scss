@@ -50,6 +50,14 @@
                 max-width: 100%;
                 --labels-size: 30%;
             }
+            ul li {
+                display: block;
+                text-align: left;
+
+                &:not(:last-child)::after {
+                    content: '';
+                }
+            }
         }
 
         .languages,

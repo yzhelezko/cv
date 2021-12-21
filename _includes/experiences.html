@@ -7,16 +7,14 @@
 
     <div class="section-content">
         {% for experience in experiences.items %}
-        <div class="item">
+        <div class="timeline-item" date-is="{{ experience.company }}, {{ experience.time }}">
 
             <div class="upper-row">
                 <div class="company">
-                    {{ experience.company }}
                     {% if experience.tag %}
                     <small>[{{ experience.tag }}]</small>
                     {% endif %}
                 </div>
-                <div class="time">{{ experience.time }}</div>
             </div>
 
             <div class="upper-row">
@@ -25,13 +23,24 @@
             </div>
 
             {% if experience.details %}
+            <br/>
             <div class="details">
                 <div class="markdown">
                     {{ experience.details | markdownify }}
                 </div>
             </div>
             {% endif %}
-
+            {% if experience.tools %}
+            <br/>
+            <div class="experiences-tools">
+                <ul class="list-unstyled">
+                    Project tools:
+                    {% for experience in experience.tools %}
+                    <li>{{ experience.item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
         </div>
         {% endfor %}
     </div>

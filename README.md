@@ -1,6 +1,6 @@
 # online-resume
 
-[English](README.md) | [简体中文](README_CN.md)
+[English](README.md)
 
 ---
 
@@ -48,7 +48,11 @@ If you want to print your resume, just press the shortcut of print. Also, it can
 
 #### Locally
 
-If you want to use it locally, you should clone this repository then just like deploying a regular Jekyll website.
+Install ruby+devkit
+https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe
+
+gem install jekyll
+jekyll serve
 
 ### Customization
 

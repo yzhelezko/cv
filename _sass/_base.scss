@@ -68,7 +68,10 @@ small {
             overflow: hidden;
             margin-bottom: 2px;
 
-            .company,
+            .company {
+                font-weight: $base-font-weight * 2;
+            }
+
             .certificate,
             .university {
                 font-weight: $base-font-weight * 1.75;
@@ -145,8 +148,22 @@ small {
             max-width: 80%;
             --labels-size: 20%;
         }
-    }
 
+        ul {
+            margin-bottom: $spacing-unit / 4;
+
+            li {
+                display: inline;
+                white-space: nowrap;
+
+                &:not(:last-child)::after {
+                    content: '/';
+                    margin: 0 0.25em;
+                }
+            }
+        }
+
+    }
     .publications {
         .title {
             font-weight: $base-font-weight * 1.75;
@@ -175,6 +192,64 @@ small {
             }
         }
     }
+
+    .experiences-tools {
+        ul {
+            margin-bottom: $spacing-unit / 4;
+
+            li {
+                display: inline;
+                white-space: nowrap;
+
+                &:not(:last-child)::after {
+                    content: '/';
+                    margin: 0 0.25em;
+                }
+            }
+        }
+    }
+
+}
+
+$border-color: rgba(black, .3);
+
+.timeline-item {
+	padding: 4em 3em 3em;
+	position: relative;
+	color: rgba(black, .7);
+	border-left: 2px solid $border-color;
+	
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 0.4em;
+		display: block;
+		font-weight: 700;
+		font-size: $large-font-size;
+	}
+
+	&::after {
+		width: 15px;
+		height: 15px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -9px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid $border-color;
+		background: white;
+	}
+
+	&:last-child {
+		border-image: linear-gradient(
+			to bottom,
+			$border-color 60%,
+			rgba($border-color, 0)) 1 100%
+		;
+	}
 }
 
 .footer {
