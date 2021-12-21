@@ -34,24 +34,78 @@ experiences:
   display: true
   title: Experience
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
+    - role: "Role: Techincal Product Manager"
+      time: (April 2019 - now)
+      company: Ventus Cloud
       tag:
-      location: Beijing
+      location: Odesa, Ukraine
       details: |
         Experience in this company:
         + First
         + Second
+      tools:
+        - item: Ansible
+        - item: Terraform
+        - item: Linux
+        - item: Docker
+        - item: Kubernetes
+        - item: OpenStack
+        - item: Magnum
+        - item: Rancher
+        - item: Golang
+        - item: Github Actions
+        - item: Node.js
+        - item: TypeScript
+        - item: JavaScript
+        - item: Helm
+        - item: Dapr
+        - item: Loki
+        - item: Prometheus
+        - item: Grafana
+        - item: Harbor
+        - item: HAProxy
+        - item: Golem (my own project DBaaS)
 
-        ...
 
-    - role: DevOps Engineer, Automation
-      time: 4 years (October 2014 – January 2018)
-      company: Ciklum@RRD/DFS
+    - role: "Role: DevOps Engineer, Automation"
+      time: 6 months (November 2018 – April 2019)
+      company: SoftServe
+      tag:
+      location: Kyiv, Ukraine
+      details: |
+        ##### Project: Data Integration
+
+        Improve company’s Data Integration process.
+        + Develop CI/CD process to run Talend serverless jobs in Azure
+
+        <br/>
+        ##### Project: Smart Home
+
+        Build a smart home solution from scratch that will work on Android, iOS, and Web
+        + Help developers with how to continuously deliver their code to azure
+        + Develop Infrastructure as a Code
+        + Help with what to use in azure
+        + Develop and create CI/CD process
+        + Create infrastructure
+      tools:
+        - item: Azure Container Instances
+        - item: Azure
+        - item: Terraform
+        - item: DSC
+        - item: PowerShell
+        - item: MSBuild
+        - item: Linux
+        - item: Azure DevOps
+        - item: Docker
+        - item: Talend
+    - role: "Role: DevOps Engineer, Automation"
+      time: 4 years 2 months (October 2014 – November 2018)
+      company: Ciklum
       tag:
       location: Odesa, Ukraine
       details: |
+        ##### Project: RR Donnelley/DFS, Reporting platform
+        The solution is designed to advance the ability of privately held, pre-IPO and public companies of all sizes and vertical industries to collaborate on documents and comply with disclosure requirements mandated by the Securities and Exchange Commission (SEC) and other regulatory agencies. The solution speeds and simplifies the process of creating, managing and submitting the required disclosure documentation.
         + Developed deployment scripts for the large cloud-based solution based on
         SharePoint 2010, SQL 2012 AlwaysOn, Cloud Services using Azure PowerShell and
         DSC. Azure (Classic)
@@ -59,7 +113,7 @@ experiences:
         processes for SQL AlwaysOn Clusters in Azure (Classic)
         + Support and maintenance more than 20 environments based on SharePoint
         Farms and SQL AlwaysOn clusters
-        +Participate in developing our own infrastructure/deployment/configuration
+        + Participate in developing our own infrastructure/deployment/configuration
         management framework for Azure.
         + Developed IaC for the next large cloud-based solution based on SharePoint 2016,
         SQL 2016, Azure Service Fabric using DSC and the new Azure Resource
@@ -74,24 +128,77 @@ experiences:
         + Developed IaC solutions in Azure for different projects using Terraform and DSC
         CI/CD for services and infrastructure.
         + Executing of all QA activities, work in big distributed team.
+      tools:
+        - item: Azure
+        - item: Azure Resource Manager templates (ARM templates)
+        - item: Desired State Configuration for Azure
+        - item: Infrastructure as Code
+        - item: Disaster Recovery
+        - item: AppDynamics
+        - item: Azure DevOps (VSTS)
+        - item: SQL AlwaysOn
+        - item: Terraform
+        - item: Active Directory
+        - item: SharePoint
+        - item: Kubernetes
+        - item: CI/CD
+        - item: Zodiak (our own deployment framework)
+
 
 skills:
   display: true
   title: Skills
-  details: |
-    Here is my skills:
-    + First
-    + Second
-
-    ...
-
-  levels:
-    - name: Skill A
-      level: 90
-    - name: Skill B
-      level: 80
-    - name: Skill C
-      level: 70
+  items:
+    - item: Linux
+    - item: Windows Server
+    - item: Git
+    - item: PowerShell
+    - item: IIS
+    - item: Kubernetes
+    - item: Active Directory
+    - item: DevOps
+    - item: Golang
+    - item: Cisco
+    - item: Dapr
+    - item: Loki
+    - item: Virtualization
+    - item: Load Balancing
+    - item: Hyper-V
+    - item: Ceph
+    - item: Prometheus
+    - item: Grafana
+    - item: Bash
+    - item: Rancher
+    - item: Harbor
+    - item: CI/CD
+    - item: OpenStack
+    - item: Github Actions
+    - item: Gitlab
+    - item: Bitbucket
+    - item: Docker
+    - item: Ansible
+    - item: Terraform
+    - item: Helm
+    - item: MySQL
+    - item: PostgreSQL
+    - item: Redis
+    - item: HAProxy
+    - item: PHP
+    - item: YAML
+    - item: SQL AlwaysOn
+    - item: Node.js
+    - item: TypeScript
+    - item: JavaScript
+    - item: HTML
+    - item: CSS
+    - item: Azure
+    - item: Azure Resource Manager templates (ARM templates)
+    - item: Desired State Configuration for Azure
+    - item: Infrastructure as Code
+    - item: Disaster Recovery
+    - item: AppDynamics
+    - item: Azure DevOps (VSTS)
+    - item: Networking (IP, DNS, DHCP, Routing, VPN etc)
 
 education:
   display: true
@@ -178,22 +285,37 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
+    - idiom: Ukrainian
+      level: Native
+    - idiom: Russian
       level: Native
     - idiom: English
-      level: Professional
+      level: Intermediate
 
 interests:
   display: true
   title: Interests
   items:
-    - item: Reading
+    - item: Kubernetes
       link:
-    - item: Cooking
+    - item: Golang
+      link:
+    - item: Cars
+      link:
+    - item: Bicycles
+      link:
+    - item: Computers
+      link:
+    - item: Gaming
+      link:
+    - item: Traveling
+      link:
+    - item: Cinema
       link:
 
+
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.

@@ -20,9 +20,11 @@
                     </div>
 
                     <div class="upper-row">
-                        <div class="avatar">
-                            <img src="{{ site.baseurl }}/assets/images/{{ certificate.image }}" alt="avatar">
+                        <!-- {% if certificate.image %}
+                        <div class="cert_image">
+                            <img src="{{ site.baseurl }}/assets/images/{{ certificate.image }}" >
                         </div>
+                        {% endif %} -->
                         <div class="authority">{{ certificate.authority }}</div>
                         <div class="time">{{ certificate.time }}</div>
                     </div>
