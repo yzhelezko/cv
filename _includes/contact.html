@@ -72,6 +72,12 @@
     </li>
     {% endif %}
 
+    {% if contact.pdf %}
+    <li class="gitlab"><i class="fas fa-file-pdf"></i>
+        <a href="{{ site.baseurl }}/assets/pdf/{{ contact.pdf }}" target="_blank">PDF</a>
+    </li>
+    {% endif %}
+
     {% if contact.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
         <a href="https://bitbucket.com/{{ contact.bitbucket }}" target="_blank">{{ contact.bitbucket }}</a>
