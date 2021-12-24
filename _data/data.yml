@@ -1,6 +1,6 @@
 basic:
   name: Yury Zhelezko
-  title: Full stack Engineer
+  title: Full-Stack Engineer
   avatar:
     display: true
     path: profile.jpg
@@ -29,23 +29,31 @@ profile:
   display: true
   title: Summary
   details: |
-    Skilled DevOps Engineer with 4+ years of experience, deployment automation of cloud resources in Azure, CI/CD, and DevOps processes. Skilled in understanding complex systems from design, implementation, through to run-state. I’m passionate about what I do and am always ready to tackle the next big challenge.
+    Skilled Full Stack Engineer with 7+ years of experience, deployment automation of cloud resources in Azure, CI/CD, and DevOps processes. Skilled in understanding complex systems from design, implementation, through to run-state. I’m passionate about what I do and am always ready to tackle the next big challenge.
 
 experiences:
   display: true
   title: Experience
   items:
-    - role: "Role: Techincal Product Manager"
+    - role: "Role: Techincal Product Manager/Full-Stack Engineer"
       time: (April 2019 - now)
       company: Ventus Cloud
       tag:
       location: Odesa, Ukraine
       details: |
-        Experience in this company:
-        + First
-        + Second
+        Build cloud to provide the easiest way to work with products like Virtual Machines, latest versions of Kubernetes, DBaaS, Block Storage, and S3.
+        + First and deep experience to work with OpenStack and Ceph
+        + Deep experience with OpenStack-Ansible and Ceph-Ansible has configured All-in-one OpenStack+Ceph test environments, also have expirience to build distributed OpenStack+Ceph environments on top of virtual machines.
+        + Deep experience with ceph, a lot of disaster tests with the recovery of osds, and also tunings tweaks to get more performance.
+        + (In Prod) Deep experience with OpenStack Magnum, This is my main focus to upgrade all components of our kubernetes service and upgrade Kubernetes clusters itself. (Move from Fedora Atomic to FCOS, support versions of Kubernetes from 1.15 till 1.23 with upgrade of flannel, cni plugins, OpenStack controller, cinder and manilla< rwo and rwx storage classes support, etc) [https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus](https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus)
+        + (In Prod) Launched and lead the DBaaS project with code name golem initiated by me. it is our own project on top of Kubernetes clusters. It is written in Golang and uses Kubernetes clusters to manage databases, it has support of MySQL, PostgreSQL, and MariaDB, also support of database replicas, backup/restore to/from S3, support of scheduled backups, internal load balancer, ACL for DBs. User experience: You can create a database, create replicas also you can make backups and restore using any S3 storage. Users don't know about the Kubernetes clusters under the hood.
+        + (In Prod) First experience to work with Node.js written my first component for DBaaS project.
+        + Build CI/CD in Github Actions using ansible for our own Frontend/Backend solution.
+        + Lead our internal docker registry using Harbor. It was used by our kubernetes service to improve deployment speed of kubernetes clusters.
       tools:
         - item: Ansible
+        - item: OpenStack-Ansible
+        - item: Ceph-Ansible
         - item: Terraform
         - item: Linux
         - item: Docker
@@ -65,7 +73,7 @@ experiences:
         - item: Grafana
         - item: Harbor
         - item: HAProxy
-        - item: Golem (my own project DBaaS)
+        - item: Golem (own DBaaS project)
 
 
     - role: "Role: DevOps Engineer, Automation"
