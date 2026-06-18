@@ -29,27 +29,27 @@ profile:
   display: true
   title: Summary
   details: |
-    Skilled Full Stack Engineer with 7+ years of experience, deployment automation of cloud resources, CI/CD, and DevOps processes. Development experience from scratch to production. Skilled in understanding complex systems from design, implementation, through to run-state. I’m passionate about what I do and am always ready to tackle the next big challenge.
+    Skilled Full Stack Engineer with 7+ years of experience in deployment automation of cloud resources, CI/CD, and DevOps processes. Development experience from scratch to production. Skilled in understanding complex systems from design and implementation through to run-state. I’m passionate about what I do and am always ready to tackle the next big challenge.
 
 experiences:
   display: true
   title: Experience
   items:
-    - role: "Role: Techincal Product Manager/Full-Stack Engineer"
+    - role: "Role: Technical Product Manager/Full-Stack Engineer"
       time: (April 2019 - now)
       company: Ventus Cloud
       tag:
       location: Odesa, Ukraine
       details: |
-        Build cloud to provide the easiest way to work with products like Virtual Machines, latest versions of Kubernetes, DBaaS, Block Storage, and S3.
-        + First and deep experience to work with OpenStack and Ceph
-        + Deep experience with OpenStack-Ansible and Ceph-Ansible has configured All-in-one OpenStack+Ceph test environments, also have expirience to build distributed OpenStack+Ceph environments on top of virtual machines.
-        + Deep experience with ceph, a lot of disaster tests with the recovery of osds, and also tunings tweaks to get more performance.
-        + (In Prod) Deep experience with OpenStack Magnum, This is my main focus to upgrade all components of our kubernetes service and upgrade Kubernetes clusters itself. (Move from Fedora Atomic to FCOS, support versions of Kubernetes from 1.15 till 1.23 with upgrade of flannel, cni plugins, OpenStack controller, cinder and manilla< rwo and rwx storage classes support, etc) [https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus](https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus)
-        + (In Prod) Launched and lead the DBaaS project with code name golem initiated by me. it is our own project on top of Kubernetes clusters. It is written in Golang and uses Kubernetes clusters to manage databases, it has support of MySQL, PostgreSQL, and MariaDB, also support of database replicas, backup/restore to/from S3, support of scheduled backups, internal load balancer, ACL for DBs. User experience: You can create a database, create replicas also you can make backups and restore using any S3 storage. Users don't know about the Kubernetes clusters under the hood.
-        + (In Prod) First experience to work with Node.js written my first component for DBaaS project.
-        + Build CI/CD in Github Actions using ansible for our own Frontend/Backend solution.
-        + Lead our internal docker registry using Harbor. It was used by our kubernetes service to improve deployment speed of kubernetes clusters.
+        Building a cloud to provide the easiest way to work with products like Virtual Machines, latest versions of Kubernetes, DBaaS, Block Storage, and S3.
+        + First and deep experience working with OpenStack and Ceph.
+        + Deep experience with OpenStack-Ansible and Ceph-Ansible; configured all-in-one OpenStack+Ceph test environments, and have experience building distributed OpenStack+Ceph environments on top of virtual machines.
+        + Deep experience with Ceph: many disaster tests with the recovery of OSDs, plus tuning tweaks to get more performance.
+        + (In Prod) Deep experience with OpenStack Magnum. This is my main focus: upgrading all components of our Kubernetes service and the Kubernetes clusters themselves. (Moved from Fedora Atomic to FCOS, support Kubernetes versions from 1.15 to 1.23 with upgrades of flannel, CNI plugins, OpenStack controller, Cinder, and Manila — rwo and rwx storage class support, etc.) [https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus](https://github.com/cncf/k8s-conformance/tree/master/v1.21/ventus)
+        + (In Prod) Launched and led the DBaaS project, code name Golem, initiated by me. It is our own project on top of Kubernetes clusters. It is written in Golang and uses Kubernetes clusters to manage databases; it supports MySQL, PostgreSQL, and MariaDB, plus database replicas, backup/restore to/from S3, scheduled backups, internal load balancer, and ACL for DBs. User experience: you can create a database and replicas; you can also make backups and restore using any S3 storage. Users don't know about the Kubernetes clusters under the hood.
+        + (In Prod) First experience working with Node.js; wrote my first component for the DBaaS project.
+        + Built CI/CD in GitHub Actions using Ansible for our own Frontend/Backend solution.
+        + Led our internal Docker registry using Harbor. It was used by our Kubernetes service to improve deployment speed of Kubernetes clusters.
       tools:
         - item: Ansible
         - item: OpenStack-Ansible
@@ -84,18 +84,18 @@ experiences:
       details: |
         ##### Project: Data Integration
 
-        Improve company’s Data Integration process.
-        + Develop CI/CD process to run Talend serverless jobs in Azure
+        Improved the company’s Data Integration process.
+        + Developed CI/CD process to run Talend serverless jobs in Azure
 
         <br/>
         ##### Project: Smart Home
 
-        Build a smart home solution from scratch that will work on Android, iOS, and Web
-        + Help developers with how to continuously deliver their code to azure
-        + Develop Infrastructure as a Code
-        + Help with what to use in azure
-        + Develop and create CI/CD process
-        + Create infrastructure
+        Built a smart home solution from scratch that works on Android, iOS, and Web.
+        + Helped developers continuously deliver their code to Azure
+        + Developed Infrastructure as Code
+        + Advised on what to use in Azure
+        + Developed and created CI/CD process
+        + Created infrastructure
       tools:
         - item: Azure Container Instances
         - item: Azure
@@ -136,7 +136,7 @@ experiences:
         applications in cloud environments.
         + Developed IaC solutions in Azure for different projects using Terraform and DSC
         CI/CD for services and infrastructure.
-        + Executing of all QA activities, work in big distributed team.
+        + Executed all QA activities; worked in a big distributed team.
       tools:
         - item: Azure
         - item: Azure Resource Manager templates (ARM templates)
@@ -224,7 +224,7 @@ certificates:
   display: true
   title: Certificates
   items:
-    - name: Learn How To Code, Google's Go (golang) 
+    - name: Learn How To Code, Google's Go (golang)
       authority: Udemy
       image: UdemyLogo.svg
       time: 2018

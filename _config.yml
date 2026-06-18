@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 title: Yury Zhelezko Resume
-url:
-baseurl:
+url: https://yzhelezko.github.io
+baseurl: /cv
 
 # Sass setting
 sass:
